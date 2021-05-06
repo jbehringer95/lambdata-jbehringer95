@@ -1,7 +1,5 @@
 FROM ubuntu
 
-from lambdata as helper_functions
-
 WORKDIR / happy_tesla
 
 COPY . .
